@@ -1,0 +1,7 @@
+services:
+
+* type: worker
+    name: ubayy-creative-bot
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python start.py
